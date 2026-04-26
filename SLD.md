@@ -26,4 +26,6 @@
 ## A quantidade de sensores de linha é relevante?
 ### Sim, o número de sensores impacta diretamente na fluidez do movimento, uma vez que com maior informação sobre a posição do robô em relação á linha o movimento pode ser corrigido de forma mais correta e sem o movimento de "zigue zague" evidenciado pelo video, que deixa a volta mais lenta.
 ## O motor utilizado influencia em alguma coisa?
-###
+### Sim,  tipo de motor afeta diretamente a precisão, a velocidade e a estabilidade do robô ao seguir a linha
+## Podemos utilizar qualquer tipo de roda, ou existe alguma lógica na escolha?
+### Existe uma lógica, a roda deve ser escolhida visando estabilidade e velocidade do robô. As características importantes são a aderencia com o plano da corrida, proporções (diâmetro e expessura) e a prõpria massa da roda.
