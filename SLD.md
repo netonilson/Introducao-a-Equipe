@@ -28,4 +28,4 @@
 ## O motor utilizado influencia em alguma coisa?
 ### Sim,  tipo de motor afeta diretamente a precisão, a velocidade e a estabilidade do robô ao seguir a linha
 ## Podemos utilizar qualquer tipo de roda, ou existe alguma lógica na escolha?
-### Existe uma lógica, a roda deve ser escolhida visando estabilidade e velocidade do robô. As características importantes são a aderencia com o plano da corrida, proporções (diâmetro e expessura) e a prõpria massa da roda.
+### Existe uma lógica, a roda deve ser escolhida visando estabilidade e velocidade do robô. As características importantes são a aderência com o plano da corrida, proporções (diâmetro e expessura) e a própria massa da roda.
