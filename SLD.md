@@ -16,3 +16,14 @@
 ### Sim, o Robô não pode exceder 250mm de comprimento, 250mm de largura e 200mm de altura, além de serem totalmente autônomos sem controladores externos. Fora isso cada competição pode ter especificidades proprias quanto às caracteristicas do robô.
 ## Como o robô é pontuado?
 ### Dentro da tomada, o Robô tem três chances de completar a pista, e a volta mais rápida é considerada.
+
+# Escrita
+
+## Qual é a lógica mais simples para permitir que o robô permaneça seguindo a linha?
+### A utilização de dois sensores frontais, posicionados a uma distância ligeiramente maior que a espessura da linha, permite o controle de direção do robô. Quando nenhum dos sensores detecta a cor da linha, ambas as rodas giram na mesma velocidade (RPM), mantendo o movimento reto. Caso um dos sensores identifique a linha, a roda do mesmo lado tem sua velocidade reduzida ou é parada, corrigindo a trajetória e garantindo que o robô permaneça no percurso.
+## Onde que ocorre o calculo de correção do robo para seguir a linha?
+### O calculo ocorre no algoritmo de controle dentro do microcontrolador, com os dados adquiridos pelos sensores.
+## A quantidade de sensores de linha é relevante?
+### Sim, o número de sensores impacta diretamente na fluidez do movimento, uma vez que com maior informação sobre a posição do robô em relação á linha o movimento pode ser corrigido de forma mais correta e sem o movimento de "zigue zague" evidenciado pelo video, que deixa a volta mais lenta.
+## O motor utilizado influencia em alguma coisa?
+###
